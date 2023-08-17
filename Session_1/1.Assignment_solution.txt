@@ -1,0 +1,61 @@
+Q.1 | What is Emmet?
+sol:  Emmet is a tool for web developers to write HTML and CSS code faster using shortcuts. It turns quick commands into complex code, making coding quicker.
+      Think of it as a coding helper that speeds up creating web pages.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------        
+Q.2 | Difference between a Library and Framework? in short
+sol:  A library provides tools for specific tasks that developers can choose to use, while a framework offers a complete structure with rules and tools that
+      developers must follow. Libraries are like tools you can pick and choose from, and frameworks are like pre-built blueprints you have to work within.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------        
+Q.3 | What is CDN? Why do we use it?
+sol:  A CDN is a network of servers spread worldwide that stores website content. When you want to access a site, it delivers the content from the nearest server, 
+      speeding up loading times.
+     
+      Use -> We use CDNs (Content Delivery Networks) to make websites and online content load faster for users. CDNs store copies of website files in multiple 
+      locations around the world, bringing the content closer to users. This reduces the time it takes for content to travel from the main server to the user's device, 
+      improving loading speed and overall performance
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------        
+Q.4 | Why is React known as React?
+sol:  It is called "React" because of its core concept of reacting to changes in data. It's designed to efficiently update and render components when there are changes 
+      in the underlying data or state.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------        
+Q.5 | What is crossorigin in script tag?
+sol:  When crossorigin is set to "anonymous," it allows content from different websites to be used without giving away any personal info. If set to "use-credentials," 
+      it means the computer checks if you're allowed to access the content based on your credentials, like a password.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------        
+Q.6 | What is diference between React and ReactDOM
+sol:  React: React is a JavaScript library for building user interfaces. It provides the tools and structure to create reusable UI components, manage state,
+      and handle updates efficiently. React focuses on the logic and structure of your user interface.
+
+      ReactDOM: ReactDOM is a package specifically designed to work with React and is responsible for rendering React components into the DOM (Document Object Model),
+      which is the way browsers represent and manipulate web page content. It's the glue that connects React components to the actual HTML elements on a webpage.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------        
+Q.7 | What is difference between react.development.js and react.production.js files via CDN?
+sol:  react.development.js: This version of the React library is meant for development purposes. It includes extra warnings, error messages, and debugging tools 
+      that help developers identify and fix issues while building and testing their applications. It's larger in size compared to the production version because 
+      it prioritizes providing detailed feedback for developers during the development process.
+
+      react.production.js: This version of the React library is optimized for production-ready applications. It has all the same features as the development version but
+      with the warnings, error messages, and debugging tools removed. This makes the file smaller and faster to load, which is important for delivering a smooth and 
+      efficient user experience on production websites.
+
+      When you're building and testing your application, you'd typically use the react.development.js version to take advantage of the additional debugging features. 
+      When deploying your  application to a live website, you'd switch to the react.production.js version to ensure better performance and reduced file size for your users.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------        
+Q.8 | What is async and defer? 
+sol:  async and defer are attributes that can be used when including external JavaScript files using the <script> tag in HTML. They affect how the browser loads and executes
+      the script while the rest of the HTML page is being processed.
+  
+      Async:
+        When you add the async attribute to the <script> tag, it tells the browser to continue loading the HTML content without waiting for the script to finish downloading or 
+        executing.As soon as the script is downloaded, it's executed immediately, even if the HTML parsing is not yet complete. This can potentially lead to scripts 
+        being executed out of order, especially if multiple async scripts are present.
+ 
+      Defer:
+        When you add the defer attribute to the <script> tag, it also allows the HTML content to load without interruption.
+        However, unlike async, deferred scripts are executed in the order they appear in the HTML document, just before the DOMContentLoaded event is fired. This ensures 
+        that scripts are executed in a more predictable order, which can be important for maintaining the correct functionality of the web page.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------        
+
+
+

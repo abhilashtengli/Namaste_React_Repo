@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#container {
+    background-color: red;
+    align-items: center;
+    padding: 20px 500px;
+}

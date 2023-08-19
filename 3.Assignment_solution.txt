@@ -1,0 +1,91 @@
+Q.1 | what is JSX?
+sol: JSX is a JavaScript syntax extension used in frameworks like React to write user interface components using HTML-like syntax within JavaScript code.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Q.2 | Benifits of JSX?
+sol:  Familiarity:  Resembles HTML, easy for HTML developers.
+      Readability:  Presents UI structure like final output.
+      Expressiveness: Embeds dynamic JavaScript expressions.
+      Compile-Time Checking: Catches errors before runtime.
+      Performance: Optimized output for efficient browser rendering.
+      Component Reusability:  Encourages creation of reusable UI components.
+      Tooling Support:  Strong ecosystem for editing and optimization.
+      Type Safety:  Enhanced with TypeScript or Flow for better reliability.
+      Integration:  Seamlessly integrates with JavaScript code.
+      Community:  Widely used in frameworks like React, with a large community.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Q.3 | Behind the Scenes of JSX
+sol:  Parsing:  JSX is parsed into an abstract syntax tree (AST).
+      Transformation:  JSX elements become React.createElement() calls.
+      Expressions:  JavaScript expressions in curly braces are evaluated and inserted.
+      Nested Elements:  JSX nesting leads to nested createElement() calls.
+      Attributes/Props:  JSX attributes become properties in createElement() calls.
+      Component Composition:  User-defined components replace function calls.
+      Tool Transformation:  Tools like Babel convert JSX to standard JavaScript.
+      Browser Rendering:  Transformed code renders and interacts in the browser.
+      Enhanced Readability:  JSX's transformed form is optimized for performance.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Q.4 | Babel & parcel role in JSX?
+sol:  Babel:
+            Transpilation: Converts JSX code to regular JavaScript.
+            JSX Transform: Turns JSX syntax into React.createElement() calls.
+            Supports Latest Syntax: Enables using new JavaScript features.
+            Customization: Can be configured for specific transformations.
+            Plugin Ecosystem: Offers various plugins for different transformations.
+            Integration: Often used in build pipelines to ensure browser compatibility.
+    
+      Parcel:
+             Bundler: Bundles and compiles web assets (HTML, CSS, JS).
+             JSX Support: Handles JSX transformation using Babel.
+             Zero Configuration: Requires minimal setup out of the box.
+             Optimization: Minifies and optimizes code for production.
+             Asset Management: Manages various assets like images and fonts.
+             Hot Module Replacement: Allows for live updates during development.
+             Developer-Friendly: Simplifies setup and focuses on developer experience.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Q.5 | React.createElement vs JSX
+sol:  React.createElement:
+                         - Involves calling the React.createElement() function.
+                         - More explicit syntax for creating React elements.
+                         - Expressions need to be evaluated before being passed as arguments.
+                         - Often used in scenarios where JSX isn't supported or preferred
+
+      JSX:
+          - Uses HTML-like syntax within JavaScript code.
+          - More concise and readable compared to React.createElement.
+          - Allows embedding JavaScript expressions directly within curly braces.
+          - Preferred choice for most React development due to its familiarity and ease of use.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Q.6 | Types of components? 
+sol:  1. Functional Components
+      2. Class Components
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Q.7 | Composing components
+sol:  Building complex user interfaces by combining smaller, reusable components to create larger ones, promoting modularity, reusability, and maintainability
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Q.8 | Superpowers of JSX?
+sol:  HTML-like Syntax:  Familiar and intuitive for web developers.
+      Readability: Represents UI structure like final output.
+      Embedding Expressions:  Integrates dynamic JavaScript within markup.
+      Component Composition:  Easily combines components for complex UIs.
+      Tooling Integration:  Supported by various tools for optimization.
+      Type Annotations:  Coupled with TypeScript or Flow for type safety.
+      Ecosystem Support:  Well-established in React and broader community.
+      Transformed Efficiency:  Compiled to efficient JavaScript for performance.
+      Developer Productivity:  Accelerates UI development and maintenance.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
